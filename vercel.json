@@ -1,0 +1,14 @@
+{
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist",
+    "framework": "vite",
+    "ignoreCommand": "echo 'Skipping files to ignore'",
+    "cleanUrls": true,
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/index.html"
+      }
+    ]
+  }
+  

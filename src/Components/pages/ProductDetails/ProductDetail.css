@@ -313,7 +313,8 @@
     letter-spacing: 0.06em;
     color: #FFFFFF;
     max-width: 100%;
-    width: 226px;
+    /* width: 226px; */
+    width: 100%;
 }
 
 
@@ -387,6 +388,7 @@
 
     .cloth-details .left-content .thumbnail-images {
         gap: 10px;
+        justify-content: flex-start;
     }
 
     .cloth-details .right-content .cart-buy-btn {
@@ -443,6 +445,9 @@
 
     .cloth-details .right-content .price-box .price-box-right h3 {
         font-size: 20px;
+    }
+    .cloth-details .left-content .thumbnail-images {
+        justify-content: center;
     }
 }
 

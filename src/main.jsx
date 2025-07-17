@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 // boostrap
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 // swiper
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 // fonts
-import '../public/fonts/stylesheet.css';
+// import '../public/fonts/stylesheet.css';
 import App from './App.jsx';
 
 // toasty
