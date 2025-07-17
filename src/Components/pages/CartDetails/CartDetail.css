@@ -1,0 +1,380 @@
+.cart-page {
+    padding-top: 60px;
+}
+
+.cart-page h2 {
+    letter-spacing: 0.06em;
+    color: #1E212C;
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    margin-bottom: 32px;
+}
+
+.cart-page button.product-details {
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #810000;
+}
+
+.cart-page button.product-details a {
+    color: #810000;
+
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+
+}
+
+.separator {
+    border: 1px solid #E5E8ED;
+    margin: 19px 0 32px 0;
+}
+.cart-details-box{
+    margin-bottom: 35px;
+}
+.cart-details-box thead {
+    background-color: #d9d9d9;
+}
+.cart-details-box .subtotal-sec{
+    margin-top: 35px;
+}
+.cart-details-box .table-content table {
+    background: #fff none repeat scroll 0 0;
+    border-color: #e5e5e5;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 50px;
+    text-align: center;
+    width: 100%;
+    border: none;
+    margin-bottom: 0;
+}
+
+.cart-details-box .cart-row-wrapper tr {
+    background: #f0f0f0;
+    padding: 0 20px;
+    border-radius: 0;
+}
+
+.cart-details-box .table-content table th {
+    border-top: medium none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 38px;
+    color: #000;
+    padding: 8px 10px 9px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.cart-details-box .table-content table td.product-remove {
+    width: 150px;
+    text-align: center;
+}
+.cart-details-box .table-content table td.product-remove button{
+    background-color: initial;
+    border: none;
+}
+
+.cart-details-box .table-content table td {
+    border-top: medium none;
+    padding: 20px 10px;
+    vertical-align: middle;
+    font-size: 13px;
+}
+
+.cart-details-box .quantity-wrapper {
+    width: 40%;
+    border: none;
+    text-align: center;
+    height: 36px;
+    background: #D9D9D9;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 0 10px;
+    border-radius: 3px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-details-box .quantity-wrapper input {
+    width: 50%;
+    border: none;
+    text-align: center;
+    height: 36px;
+    background: #D9D9D9;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.cart-details-box .quantity-wrapper input:focus-visible {
+    outline: none !important
+}
+
+.cart-details-box .quantity-wrapper button {
+    border: none;
+    width: 20%;
+    border: none;
+    text-align: center;
+    height: 36px;
+    background: #D9D9D9;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+.cart-details-box .table-content table td.product-thumbnail {
+    width: 165px;
+    text-align: center;
+    margin: auto;
+}
+
+.cart-details-box .table-content table td.product-thumbnail img {
+    width: 104px;
+    height: 84px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cart-details-box .table-content table td.product-name {
+    width: 155px;
+    text-align: center;
+    margin: auto;
+}
+
+.cart-details-box .table-content table td.product-name h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    /* max-width: 148px; */
+    margin: auto;
+}
+.cart-details-box .table-content table td.product-size {
+    width: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+.cart-details-box .table-content table td.product-size h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    max-width: 148px;
+    margin: auto;
+}
+.cart-details-box .table-content table td.product-price {
+    width: 130px;
+    text-align: center;
+    margin: auto;
+}
+
+.cart-details-box .table-content table td.product-price h6 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    margin: auto;
+}
+
+.cart-details-box .table-content table td.product-quantity {
+    width: 180px;
+    text-align: center;
+    margin: auto;
+}
+
+.cart-details-box .table-content table td.product-subtotal {
+    width: 120px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.cart-details-box .table-content table td.product-subtotal h6 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    margin: auto;
+}
+
+.cart-details-box .coupon-text {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    gap: 0;
+    padding: 0;
+    /* margin-top: 35px; */
+    max-width: 399px;
+    text-align: center
+}
+
+.cart-details-box .coupon-text .input-text {
+    width: 100%;
+    height: 65px;
+    padding: 12px 12px 12px 20px;
+    border: none;
+    background-color: #F0F0F0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 38px;
+    color: #4A4848;
+    border-radius: 5px 0 0 5px;
+    letter-spacing: 0.06em;
+}
+
+.cart-details-box .coupon-text .button {
+    width: 100%;
+    max-width: 174px;
+    height: 100%;
+    background-color: #810000;
+    color: #fff;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 38px;
+    cursor: pointer;
+    letter-spacing: 0.06em;
+    border-radius: 0 5px 5px 0;
+    text-transform: uppercase;
+}
+
+.cart-details-box .coupon2 {
+    display: flex;
+    justify-content: end;
+}
+
+.cart-details-box .coupon2 input {
+    font-family: 'Poppins';
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 12px 32px;
+    background-color: #810000;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.cart-details-box .cart-total {
+    margin-top: 35px;
+}
+
+.cart-details-box .cart-total h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.cart-details-box .cart-total>ul {
+    border: 1px solid #ddd;
+}
+
+.cart-details-box .cart-total li {
+    border-bottom: 1px solid #ddd;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 15px 12px 23px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 38px;
+}
+.cart-details-box .cart-total li span{
+    font-weight: 600;
+}
+.cart-details-box .checkout-btn {
+    font-family: 'Poppins';
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 12px 26px;
+    background-color: #810000;
+    border-radius: 5px;
+    color: #fff;
+    max-width: 249px;
+    margin-top: 28px;
+}
+@media (max-width: 991.9px) {
+    .cart-page h2 {
+        font-size: 35px;
+    }
+
+    .cart-details-box .table-content.table-responsive {
+        border: 1px solid #ddd;
+        width: 100%;
+        margin-bottom: 35px;
+        overflow-y: hidden;
+    }
+    .cart-details-box .coupon2 {
+        margin-top: 35px;
+        justify-content: center;
+    }
+    .cart-details-box .quantity-wrapper {
+        width: auto;
+    }
+}
+
+@media (max-width: 768.9px) {
+    .cart-page h2 {
+        font-size: 30px;
+        line-height: normal;
+    }
+    .cart-details-box .coupon-text{
+        max-width: 100%
+    }
+   
+}
+@media (max-width: 575.9px) {
+    .cart-page h2 {
+        font-size: 30px;
+    }
+}

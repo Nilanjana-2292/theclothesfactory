@@ -1,0 +1,340 @@
+.product-details-page {
+    padding-top: 60px;
+}
+
+.product-details-page h2 {
+    letter-spacing: 0.06em;
+    color: #1E212C;
+    font-family: 'Playfair Display';
+    
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    margin-bottom: 32px;
+}
+
+.product-details-page button.product-details {
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #810000;
+}
+
+.product-details-page button.product-details a {
+    color: #810000;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+
+}
+.separator{
+    border: 1px solid #E5E8ED;
+    margin: 19px 0 32px 0;
+}
+.cloth-details {
+    /* margin-top: 32px; */
+    color: #1E212C;
+}
+
+.cloth-details .right-content h4 {
+    font-family: 'Playfair Display';
+    
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.cloth-details .right-content .price-box .price-box-left h5 {
+    font-family: 'Roboto';
+    
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    color: #666666;
+}
+
+.cloth-details .right-content .price-box .price-box-left h6 {
+    font-family: 'Roboto';
+    
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    color: #141414;
+    margin-bottom: 0;
+}
+
+.cloth-details .right-content .price-box .price-box-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.cloth-details .right-content .price-box .price-box-right h4 {
+    
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #666666;
+    margin-bottom: 0;
+    font-family: 'Poppins';
+    text-transform: capitalize;
+}
+
+.cloth-details .right-content .price-box .price-box-right h3 {
+    font-family: 'Poppins';
+    
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    color: #141414;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.cloth-details .right-content .price-box .price-box-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.cloth-details .right-content .price-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.w-540 {
+    max-width: 545px;
+}
+
+.cloth-details .right-content .hr {
+    border: 0.5px dashed #A3A3A3;
+    margin-top: 28px;
+}
+
+.cloth-details .right-content .description-box {
+    padding-top: 20px;
+}
+
+.cloth-details .right-content .description-box h4 {
+    color: #292929;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    font-family: 'Poppins';
+    text-transform: capitalize;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+}
+
+.cloth-details .right-content .description-box p {
+    font-family: 'Poppins';
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #666666;
+}
+
+.cloth-details .right-content .description-box h5 {
+    padding: 36px 0;
+}
+
+.cloth-details .right-content .description-box h5 span {
+    font-weight: 500;
+    color: #8F8F8F;
+}
+
+.cloth-details .right-content .description-box h5 a {
+    
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+
+}
+
+
+.cloth-details .right-content .size-box h5 span {
+    font-weight: 500;
+    color: #8F8F8F;
+}
+
+.cloth-details .right-content .size-box .size-box-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cloth-details .right-content .size-box h5 a {
+    
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.cloth-details .right-content .size-box h6 {
+    /* font-family: 'Poppins'; */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #525252;
+    margin-bottom: 0;
+}
+
+.cloth-details .right-content .size-box .size-box-sizes {
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cloth-details .right-content .size-box .size-box-sizes {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.cloth-details .right-content .size-box .size-box-sizes li a {
+    display: inline-block;
+    width: 75px;
+    padding: 8px 0;
+    text-align: center;
+    border: 1px solid #E6E6E6;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    transition: all 0.3s ease;
+    color: #141414;
+}
+
+.cloth-details .right-content .size-box .size-box-sizes li a:hover {
+    border-color: #999;
+    background-color: #f9f9f9;
+}
+
+.cloth-details .right-content .size-box .size-box-sizes li a.active {
+    background-color: #EBEBEB;
+    color: #000;
+    border-color: #000;
+}
+
+.cloth-details .right-content .deliverytc {
+    margin: 27px 0 21px;
+}
+
+.cloth-details .right-content .deliverytc p {
+    text-decoration-line: underline;
+    color: #7A7A7A;
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+}
+
+.cloth-details .right-content .return h4 {
+    color: #1E212C;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+    margin-bottom: 8px;
+    font-family: 'Poppins';
+    text-transform: capitalize;
+    letter-spacing: 0;
+}
+
+.cloth-details .right-content .return p{
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #424551;
+margin-bottom: 12px;
+
+}
+.cloth-details .right-content .return ul li{
+    color: #666666;
+    font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+list-style: disc;
+list-style-position: inside;
+padding-bottom: 12px;
+}
+.cloth-details .right-content .return ul li:last-child{
+    padding-bottom: 19px;
+
+}
+.cloth-details .right-content .product-buy {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.cloth-details .right-content .cart-buy-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 31px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.cloth-details .right-content .cart-buy-btn .buy-btn{
+    width: 100%;
+}
+.cloth-details .right-content .cart-buy-btn .cart-btn{
+    width: 100%;
+}
+.cloth-details .right-content .cart-buy-btn a.btn {
+    background: #810000;
+    border-radius: 5px;
+    padding: 14px 8px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    max-width: 100%;
+    width: 226px;
+}
+.cloth-details .left-content .thumbnail-images{
+
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.cloth-details .left-content img#cloth-mainImage {
+    border-radius: 4px;
+    height: 607px;
+    object-fit: cover;
+}
+.cloth-details .left-content .cloth-thumbnail-img {
+    width: 136px;
+    height: 104px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.cloth-details .left-content .cloth-thumbnail-img.active, .cloth-details .left-content .cloth-thumbnail-img:hover {
+    border-color: #adaaaa;
+    opacity: 0.7;
+}
+@media (max-width: 575.9px) {
+    .product-details-page h2 {
+        font-size: 30px;
+    }
+}

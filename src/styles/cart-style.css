@@ -1,0 +1,107 @@
+.cart-page {
+    padding-top: 60px;
+}
+
+.cart-page h2 {
+    letter-spacing: 0.06em;
+    color: #1E212C;
+    font-family: 'Playfair Display';
+
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    margin-bottom: 32px;
+}
+
+.cart-page button.product-details {
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #810000;
+}
+
+.cart-page button.product-details a {
+    color: #810000;
+
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+
+}
+
+.separator {
+    border: 1px solid #E5E8ED;
+    margin: 19px 0 32px 0;
+}
+
+.cart-details-box {
+    thead {
+        background-color: #D9D9D9;
+    }
+    .table-content table {
+        background: #fff none repeat scroll 0 0;
+        border-color: #e5e5e5;
+        border-radius: 0;
+        border-style: solid;
+        border-width: 1px 0 0 1px;
+        margin: 0 0 50px;
+        text-align: center;
+        width: 100%;
+        border: none;
+    }
+    .table-content table th {
+        border-top: medium none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 38px;
+        color: #000000;
+        padding: 8px 10px 9px;
+        text-align: center;
+        text-transform: uppercase;
+        vertical-align: middle;
+        white-space: nowrap;
+    }
+
+    .table-content table td.product-remove {
+        width: 150px;
+        text-align: center;
+    }
+
+    .table-content table td {
+        border-top: medium none;
+        padding: 20px 10px;
+        vertical-align: middle;
+        font-size: 13px;
+    }
+
+    .table-content table td.product-thumbnail {
+        width: 130px;
+    }
+
+    .table-content table td.product-name {
+        width: 270px;
+    }
+
+    .table-content table td.product-price {
+        width: 130px;
+    }
+
+    .table-content table td.product-quantity {
+        width: 180px;
+    }
+
+    .table-content table td.product-subtotal {
+        color: #555;
+        font-size: 15px;
+        width: 120px;
+    }
+}
+
+
+@media (max-width: 575.9px) {
+    .cart-page h2 {
+        font-size: 30px;
+    }
+}

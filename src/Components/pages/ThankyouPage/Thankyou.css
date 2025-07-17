@@ -1,0 +1,94 @@
+.Thankyou-page {
+    background-image: url('/public/images/Thankyou.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 997px; */
+    padding: 140px 20px;
+}
+
+.Thankyou-page .Thankyou-page-inner .Thankyou-page-tick {
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.Thankyou-page .Thankyou-page-inner .Thankyou-page-tick img {
+    height: 153px;
+    width: auto;
+    object-fit: contain;
+}
+
+.Thankyou-page .Thankyou-page-inner {
+    background: #FFFFFF;
+    box-shadow: 5px 5px 22.5px 12px rgba(0, 0, 0, 0.23);
+    padding: 68px 20px;
+}
+
+.Thankyou-page .Thankyou-page-inner h3 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #1E212C;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.Thankyou-page .Thankyou-page-inner p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+    color: #000000;
+    padding-bottom: 36px;
+    text-align: center;
+}
+
+  .Thankyou-page .download-receipt:hover {
+    background-color: #a60000;
+  }
+  .Thankyou-page .download-receipt{
+    background-color: #800000;
+    color: white;
+    padding: 15px 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  .Thankyou-page .download-receipt img{
+width: 25px;
+height: 25px;
+  }
+
+  @media (max-width: 768.9px) {
+    .Thankyou-page .Thankyou-page-inner {
+        padding: 38px 20px;
+    }
+    .Thankyou-page .Thankyou-page-inner .Thankyou-page-tick img {
+        height: 100px;
+
+    }
+    .Thankyou-page .Thankyou-page-inner .Thankyou-page-tick {
+        margin-bottom: 34px;
+    }
+    .Thankyou-page .Thankyou-page-inner h3{
+        font-size: 36px;
+    }
+    .Thankyou-page {
+        padding: 80px 20px;
+    }
+  }
+  @media (max-width: 575.9px) {
+    .Thankyou-page .Thankyou-page-inner h3 {
+        font-size: 30px;
+    }
+}

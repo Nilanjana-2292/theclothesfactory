@@ -1,0 +1,227 @@
+/* coupon */
+.coupon {
+    padding: 38px 0;
+}
+
+.coupon .header-topText {
+    padding-right: 19px;
+}
+
+.coupon .header-btnText {
+    line-height: normal;
+}
+
+.coupon-box {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #171717;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 65px;
+    margin-bottom: 45px;
+    /* align-items: center; */
+    max-height: 419px;
+}
+
+.coupon-left {
+    border-right: 1px solid #171717;
+}
+
+.coupon-left,
+.coupon-right {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #e0e0e0;
+}
+
+.coupon-left {
+    align-items: center;
+    text-align: center;
+    border-radius: 10px 0 0 10px;
+}
+
+
+.coupon-left h2 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 31px;
+    margin-bottom: 54px;
+}
+
+.coupon-left button {
+    background: black;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    width: 432px;
+    max-width: 100%;
+    height: 89px;
+}
+
+.coupon-right {
+    border-radius: 10px;
+}
+
+.copied-text {
+    margin-top: 10px;
+    color: green;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.coupon-right {
+    padding: 0;
+}
+
+.coupon-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .scissor-divider-wrapper {
+    position: relative;
+    margin: 30px 0;
+  }
+  
+  .scissor-line {
+    border-top: 3px dashed #000;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="3"><line x1="0" y1="1.5" x2="100%" y2="1.5" stroke="black" stroke-width="3" stroke-dasharray="20,20" /></svg>') repeat-x;
+    background-position: top;
+    background-size: auto 3px;
+    position: relative;
+  }
+  
+  .scissor-icon {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    color: #810000;
+    background-color: white;
+    padding: 0 5px;
+    z-index: 1;
+  } */
+.coupon-inner {
+    position: relative;
+    /* height: 50px; */
+    /* border-top: 3px dashed black; */
+    margin: 20px 0;
+}
+
+.coupon-inner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 46px;
+    background: url(/public/images/scissor-top.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+
+}
+
+.coupon-inner::after {
+    content: '';
+    position: absolute;
+    /* bottom: 0; */
+    /* transform: translateY(-50%); */
+    width: 100%;
+    height: 46px;
+    background: url(/public/images/scissor-bottom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+
+}
+
+.coupon-inner::before {
+    /* left: -15px; */
+}
+
+.coupon-inner::after {
+    /* right: -15px; */
+}
+
+/* Responsive */
+@media (max-width: 1400px) {
+    .coupon-box {
+        flex-wrap: nowrap;
+    }
+    .coupon-left{
+        padding: 1rem;
+    }
+    .coupon-left h2 {
+        font-size: 25px;
+        line-height: normal;
+        margin-bottom: 24px;
+    }
+    .coupon-left button{
+        font-size: 20px;
+        line-height: normal;
+        width: auto;
+        height: auto;
+    }
+}
+@media (max-width: 768.9px) {
+    .coupon-box {
+        flex-direction: column-reverse;
+    }
+    .coupon-left{
+        padding: 2rem;
+    }
+    .coupon-box{
+        max-height: 100%;
+    }
+    .coupon-left {
+        border-radius: 0;
+    }
+    .coupon-left {
+        border-top: 1px solid #171717;
+        border-right: none;
+    }
+    .coupon-box {
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+    .coupon-inner::before{
+        height: 32px;
+    }
+    .coupon-inner::after{
+        height: 32px;
+    }
+    .header-topText {
+        font-size: 25px;
+        line-height: normal;
+    }
+
+    .header-btnText {
+        font-size: 18px;
+        line-height: normal;
+    }
+}
+@media (max-width: 575.9px) {
+    .coupon-left h2 {
+        font-size: 20px;
+    }
+}

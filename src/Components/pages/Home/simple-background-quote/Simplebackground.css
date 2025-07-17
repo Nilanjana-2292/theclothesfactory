@@ -1,0 +1,47 @@
+/* simple-background-quote */
+.simple-background-quote {
+    background-image: url('/public/images/banner-2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 88px 0;
+    /* height: 529px;
+    min-height: 529px;
+    max-height: 529px; */
+    position: relative;
+}
+
+.simple-background-quote::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(21, 20, 20, 0.55);
+}
+
+.simple-background-quote .simple-background-quote-content {
+    position: relative;
+    z-index: 9;
+}
+
+.simple-background-quote .simple-background-quote-content h3 {
+    font-family: "Playfair Display", serif;
+    
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding-bottom: 35px;
+}
+@media (max-width: 768px) {
+
+    .simple-background-quote .simple-background-quote-content h3{
+        font-size: 25px;
+        line-height: 40px;
+    }
+}
+@media (max-width: 991.9px) {
+    .simple-background-quote {
+        background-position: right;
+    }
+}

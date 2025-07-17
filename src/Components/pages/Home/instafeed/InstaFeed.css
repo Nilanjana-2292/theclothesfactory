@@ -1,0 +1,125 @@
+/* instagram-feed */
+.instagram-feed {
+    padding: 40px 0 25px;
+}
+
+.instagram-feed .insta-slider-section {
+    padding-top: 47px;
+    /* padding: 1rem;
+    */
+}
+
+.instagram-feed .swiper {
+    width: 100%;
+}
+
+.instagram-feed .swiper-slide {
+    width: auto;
+    flex-shrink: 0;
+    /* border-radius: 8px;
+    */
+    overflow: hidden;
+}
+
+.instagram-feed .swiper-slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    /* border-radius: 8px;
+    */
+    position: relative;
+}
+
+.instagram-feed .image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.instagram-feed .image-wrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    position: relative;
+    z-index: 0;
+    transition: transform 0.3s ease;
+}
+
+.instagram-feed .image-wrapper:hover img {
+    transform: scale(1.05);
+}
+
+.instagram-feed .image-wrapper::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(10, 10, 10, 0);
+    transition: rgba(10, 10, 10, 0.39) 0.3s ease;
+    z-index: 1;
+}
+
+.instagram-feed .image-wrapper:hover::after {
+    background: rgba(10, 10, 10, 0.39);
+}
+
+.instagram-feed .instagram-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    /* prevents interfering when not visible */
+}
+
+.instagram-feed .image-wrapper:hover .instagram-icon {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.instagram-feed .instagram-icon svg {
+    width: 40px;
+    height: 40px;
+    fill: white;
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.5));
+}
+
+.instagram-feed .swiper-pagination {
+    position: relative;
+    margin-top: 36px;
+    text-align: center;
+}
+
+.instagram-feed .swiper-pagination-bullet {
+    background-color: #ccc;
+    opacity: 1;
+    width: 12px;
+    height: 11.92px;
+    margin: 0 4px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.instagram-feed .swiper-pagination-bullet-active {
+    background-color: #000;
+}
+@media (max-width: 768px) {
+
+    .header-topText {
+        font-size: 25px;
+        line-height: normal;
+    }
+    .header-btnText {
+        font-size: 18px;
+        line-height:normal;
+    }
+    .instagram-feed {
+        padding: 0px 0 25px;
+    }
+}

@@ -1,0 +1,118 @@
+/* banner */
+.banner {
+    background-image: url('/public/images/banner_blank.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    /* height: 695px;
+    min-height: 695px;
+    max-height: 695px; */
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .banner {
+        background-image: url('/public/images/banner_blank@3x.jpg');
+        background-size: cover;
+    }
+}
+
+.banner .left-image img {
+    height: 695px;
+    min-height: 695px;
+    max-height: 695px;
+    width: auto;
+    object-fit: contain;
+}
+
+.banner .right-content h1 {
+    font-family: "Playfair Display", serif;
+
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 100px;
+    text-align: left;
+    padding-bottom: 30px;
+
+}
+
+.banner .right-content p {
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    padding-bottom: 42px;
+}
+
+.banner-btn a {
+    /* padding: 19px 55px; */
+    width: 220px;
+    max-width: 100%;
+    padding: 19px 0;
+    background: #810000;
+    border-radius: 50px;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    border: 2px solid #810000;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.banner-btn a:hover {
+    color: #fff;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    transition: .5s ease-in-out;
+
+}
+
+/* responsive */
+@media (max-width: 1199px) {
+    .banner .left-image img {
+        height: auto;
+        min-height: auto;
+        max-height: auto;
+        width: auto;
+        object-fit: contain;
+    }
+
+    .banner .right-content h1 {
+        font-size: 55px;
+        line-height: normal;
+    }
+}
+
+
+
+@media (max-width: 991.9px) {
+
+    /* banner */
+    .banner .col-lg-6.col-12:nth-of-type(1) {
+        order: 2;
+    }
+    .banner .left-image {
+        text-align: center;
+    }
+    .banner .left-image img {
+        height: auto;
+        min-height: auto;
+        margin-top: 50px;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .banner .right-content h1 {
+        font-size: 45px;
+        line-height: normal;
+        padding-bottom: 30px;
+    }
+
+}

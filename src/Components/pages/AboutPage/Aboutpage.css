@@ -1,0 +1,76 @@
+.quality-bar-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.quality-bar-container .quality-item {
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+    min-height: 400px;
+}
+.quality-bar-container .bar-wrapper {
+    position: relative;
+    height: 8px;
+    background-color: #eee;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.quality-bar-container .bar-track {
+    position: relative;
+    height: 8px;
+    background-color: #eee;
+    border-radius: 4px;
+}
+.quality-bar-container .bar-fill {
+    height: 8px;
+    border-radius: 4px;
+    transition: width 0.4s ease;
+}
+.quality-bar-container .bar-dot {
+    position: absolute;
+    top: 50%;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+.quality-bar-container .bar-badge {
+    position: absolute;
+    top: -30px;
+    min-width: 40px;
+    height: 24px;
+    background-color: black;
+    color: #fff;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+.quality-bar-container .bar-label {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    flex-direction: column;
+}
+.quality-bar-container .bar-icon {
+    font-size: 18px;
+}
+@media (max-width: 1024.9px) {
+    .quality-bar-container {
+        gap: 70px;
+        flex-direction: column;
+    }
+    .quality-bar-container .quality-item {
+        min-height: auto;
+    }
+}
