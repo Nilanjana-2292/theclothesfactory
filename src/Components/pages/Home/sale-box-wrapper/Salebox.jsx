@@ -1,13 +1,11 @@
 import React, { useEffect } from "react";
-import "./SaleBox.css"; // Make sure this contains the marquee CSS
+import "./SaleBox.css"; 
 
 const SaleBox = () => {
   useEffect(() => {
     const wrapper = document.querySelector(".wrapper");
     const marquees = document.querySelectorAll(".marquee");
     const toggleBtn = document.querySelector(".toggle");
-
-    // You can implement additional logic here if needed
   }, []);
 
   const saleItems = Array(11).fill("•  sale");

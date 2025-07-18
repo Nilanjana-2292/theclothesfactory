@@ -8,7 +8,6 @@ import SaleBox from "./sale-box-wrapper/Salebox";
 import About from "./about/About";
 import Coupon from "./flashsale/FlashSale";
 import Instagramfeed from "./instafeed/InstaFeed";
-// import CollectionShorts from "./collection-shorts/CollectionShotsCard";
 
 const Home = () => {
   return (

@@ -36,7 +36,7 @@ const ShopPage = () => {
       {/* ✅ Product Grid */}
       <section className="collection-One" id="ShopPages-view">
         <div className="container">
-          <div className="collection-box">
+          <div className="collection-box" id="shoppage-width">
             <div className="row">
               {filteredProducts.length > 0 ? (
                 filteredProducts.map((product, index) => (

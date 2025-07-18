@@ -4,7 +4,6 @@ import "./CartDetail.css";
 
 const CartDetail = () => {
   const [cartItems, setCartItems] = useState([]);
-  // const [couponCode, setCouponCode] = useState("");
   const [discount, setDiscount] = useState(0);
 
   const navigate = useNavigate();
@@ -36,16 +35,6 @@ const CartDetail = () => {
 
   const calculateTotal = () =>
     cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0);
-
-  // const handleApplyCoupon = (e) => {
-  //   e.preventDefault();
-  //   if (couponCode.trim().toUpperCase() === "BOGOFREE") {
-  //     setDiscount(200);
-  //   } else {
-  //     setDiscount(0);
-  //   }
-  // };
-
   const total = calculateTotal();
   const finalTotal = Math.max(0, total - discount);
 
@@ -161,36 +150,9 @@ const CartDetail = () => {
                   <div className="subtotal-sec">
                     <div className="row">
                       <div className="col-lg-6 col-12">
-                        {/* <div className="coupon-all">
-                          <div className="coupon-text">
-                            <input
-                              id="coupon_code"
-                              className="input-text"
-                              name="coupon_code"
-                              placeholder="Coupon code"
-                              type="text"
-                              value={couponCode}
-                              onChange={(e) =>
-                                setCouponCode(e.target.value)
-                              }
-                            />
-                            <input
-                              className="button"
-                              value="Apply coupon"
-                              type="submit"
-                            />
-                          </div>
-                        </div> */}
                       </div>
-
                       <div className="col-lg-6 col-12">
-                        {/* <div className="coupon2">
-                          <input
-                            className="button"
-                            value="Update cart"
-                            type="submit"
-                          />
-                        </div> */}
+                       
                         <div className="cart-total">
                           <h3>Cart totals</h3>
                           <ul>

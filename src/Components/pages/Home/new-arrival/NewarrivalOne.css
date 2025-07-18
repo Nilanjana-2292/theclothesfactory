@@ -1,5 +1,6 @@
 /* tshirt collection */
 .newarrival-One {
+    margin-top: 29px;
     padding: 40px 0 40px;
     background: #E1E1E1;
 }
@@ -107,7 +108,7 @@ color: #000;
 .newarrival-One .collection-box .collectionInner .cart-buy-btn .btn {
     background: #810000;
     border-radius: 5px;
-    padding: 8px 8px;
+    padding: 10px 8px;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 12px;
@@ -422,6 +423,9 @@ color: #000;
 }
 
 @media (max-width: 768.9px) {
+    .newarrival-One {
+        margin-top: 0px;
+    }
     .newarrival-One .collection-box .collectionInner .product-content .product-price {
         padding-bottom: 15px;
     }

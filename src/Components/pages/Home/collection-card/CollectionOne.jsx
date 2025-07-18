@@ -5,26 +5,7 @@ import "./CollectionOne.css";
 
 const CollectionOne = ({ title, desc }) => {
   useEffect(() => {
-    // const buttons = [
-    //   { trigger: ".view-all-btn .btn", target: ".more-products" },
-    //   { trigger: ".view-all-shorts .btn", target: ".more-shorts" },
-    //   { trigger: ".view-all-new .btn", target: ".more-new" },
-    // ];
-
-    // buttons.forEach((pair) => {
-    //   const triggerBtn = document.querySelector(pair.trigger);
-    //   const targetContent = document.querySelector(pair.target);
-
-    //   if (triggerBtn && targetContent) {
-    //     triggerBtn.addEventListener("click", function () {
-    //       targetContent.classList.remove("d-none");
-    //       this.disabled = true;
-    //       this.classList.add("disabled");
-    //     });
-    //   }
-    // });
-
-    // Create mobile carousel wrapper only once
+    // Create mobile carousel w
     if (window.innerWidth < 1024) {
       const row = document.querySelector(".collection-box > .row");
 
@@ -94,12 +75,7 @@ const CollectionOne = ({ title, desc }) => {
           {/* Product list */}
           <CollectionList />
 
-          {/* 
-          <div className="more-products collection-box d-none">
-
-            <CollectionList />
-
-          </div> */}
+    
 
 
           <div className="view-all-btn">

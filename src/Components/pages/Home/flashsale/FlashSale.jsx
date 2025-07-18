@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./FlashSale.css"; // Optional, if you have related styles
+import "./FlashSale.css";
 
 
 const Coupon = () => {
@@ -37,7 +37,7 @@ const Coupon = () => {
                                 </div>
                                 <div className="coupon-right">
                                     <img
-                                        src="/images/CouponSale.png" // Replace with your actual image path
+                                        src="/images/CouponSale.png"
                                         alt="Model"
                                         className="img-fluid"
                                     />

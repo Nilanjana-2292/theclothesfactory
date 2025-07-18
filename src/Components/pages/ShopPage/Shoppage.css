@@ -17,6 +17,25 @@ section#ShopPages-view {
 section#ShopPages-view .row{
     row-gap: 20px;
 }
+@media (max-width: 768.9px) {
+    #shoppage-width .row{
+        display: flex;
+    }
+    #shoppage-width .row .col-lg-4.col-md-6{
+        width: 50%;
+    }
+    #shoppage-width .row .collection-One .collection-box .collectionInner .product-content .product-price{
+        flex-direction: column;
+        gap: 2px;
+    }
+    #shoppage-width .row .cart-buy-btn .btn {
+        width: 100px;
+    }
+    #shoppage-width .collectionInner .product-content .product-price{
+        flex-direction: column;
+        gap: 0;
+    }
+}
 @media (max-width: 575.9px) {
     .shop-page h2 {
         font-size: 30px;

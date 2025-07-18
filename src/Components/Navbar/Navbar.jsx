@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import './Navbar.css';
 import { productData } from "../../Data";
 
@@ -110,13 +110,20 @@ const Header = () => {
           <div className="row align-items-center">
             <div className="col-12 col-lg-3 col-md-12 order-1">
               <div className="logo" onClick={() => navigate("/")}>
-                <img src="/images/logo.png" className="img-fluid" alt="Logo" style={{ cursor: "pointer" }} />
+                <Link to="/" className="logo">
+                  <img
+                    src="/images/logo.png"
+                    className="img-fluid"
+                    alt="Logo"
+                    style={{ cursor: "pointer" }}
+                  />
+                </Link>
               </div>
             </div>
 
             <div className="col-12 col-lg-3 col-md-12 order-2 order-lg-3">
               <div className="site-icon d-flex justify-content-lg-end justify-content-md-end align-items-center gap-2">
-                <div ref={searchBoxWrapperRef} id="searchBoxWrapper" className="search-box-wrapper d-none me-2">
+                <div ref={searchBoxWrapperRef} id="searchBoxWrapper" className="search-box-wrapper d-block me-2">
                   <input
                     ref={searchBoxRef}
                     id="searchBox"
@@ -152,11 +159,11 @@ const Header = () => {
             <div className="d-none d-lg-block col-lg-6 col-md-6 order-lg-2 text-center">
               <nav className="site-nav">
                 <ul className="mb-0">
-                  <li><a href="/">Home</a></li>
-                  <li><a href="/about">About</a></li>
-                  <li><a href="/cart-detail">Cart</a></li>
-                  <li><a href="/checkout">Checkout</a></li>
-                  <li><a href="/shop">Shop</a></li>
+                  <li><Link to="/">Home</Link></li>
+                  <li><Link to="/about">About</Link></li>
+                  <li><Link to="/cart-detail">Cart</Link></li>
+                  <li><Link to="/checkout">Checkout</Link></li>
+                  <li><Link to="/shop">Shop</Link></li>
                 </ul>
               </nav>
             </div>
@@ -168,11 +175,11 @@ const Header = () => {
 
           <div ref={navRef} className="site-nav-mobile d-none text-center bg-light py-3 d-lg-none collapse-menu">
             <ul className="mb-0 list-unstyled">
-              <li><a href="/">Home</a></li>
-              <li><a href="/about">About</a></li>
-              <li><a href="/cart-detail">Cart</a></li>
-              <li><a href="/checkout">Checkout</a></li>
-              <li><a href="/shop">Shop</a></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/about">About</Link></li>
+              <li><Link to="/cart-detail">Cart</Link></li>
+              <li><Link to="/checkout">Checkout</Link></li>
+              <li><Link to="/shop">Shop</Link></li>
             </ul>
           </div>
         </div>

@@ -259,7 +259,7 @@ const CheckoutPage = () => {
                 <button
                   className="note-submit"
                   type="button"
-                  // onClick={() => toast.success("Coupon Applied")}
+                 
                 >
                   Submit
                 </button>

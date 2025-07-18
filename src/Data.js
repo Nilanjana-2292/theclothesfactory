@@ -10,7 +10,7 @@ export const productData = [
       sold: "1,238",
       rating: 4.5,
       quantity: 1,
-      tags: ["tshirt", "tee", "oversized", "black", "unisex", "cotton", "casual"],
+      tags: ["tshirt", "tee", "tees", "oversized", "black", "unisex", "cotton", "casual"],
       description:
         "Simplicity meets style in this versatile unisex t-shirt, designed with a clean, comfortable fit and a focus on the back for standout prints or graphics. Made from soft, breathable cotton, this tee offers all-day comfort for any occasion.",
       color: "Black",
@@ -34,7 +34,7 @@ export const productData = [
       sold: "1,005",
       rating: 4.5,
       quantity: 1,
-      tags: ["tshirt", "tee", "oversized", "beige", "unisex", "cotton", "casual"],
+      tags: ["tshirt", "tee", "tees", "oversized", "beige", "unisex", "cotton", "casual"],
       description:
         "This beige unisex t-shirt brings understated style to your wardrobe. Designed with a relaxed, modern fit and crafted from soft, breathable cotton, it offers lasting comfort from day to night.",
       color: "Beige",
