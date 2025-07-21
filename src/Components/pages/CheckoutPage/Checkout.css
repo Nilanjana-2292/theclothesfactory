@@ -139,6 +139,11 @@
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
+    display: inline-block;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: unset;
+    width: auto;
 
 }
 
@@ -183,7 +188,7 @@
     color: #fff;
     text-transform: uppercase;
 }
-.checkout-details-box .order-summary button.btn.red {
+.checkout-details-box  button.btn.red {
     background: #810000;
     border-radius: 5px;
     font-family: 'Poppins';

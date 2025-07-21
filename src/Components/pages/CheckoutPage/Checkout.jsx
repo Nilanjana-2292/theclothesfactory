@@ -58,15 +58,21 @@ const CheckoutPage = () => {
 
   const handleApplyCoupon = (e) => {
     e.preventDefault();
-    if (couponCode.trim()) {
-      setAppliedCoupon(couponCode.trim());
+    const trimmed = couponCode.trim().toUpperCase();
+    if (trimmed === "BOGOFREE") {
+      setAppliedCoupon(trimmed);
       toast.success("Coupon applied: ₹200 off");
     } else {
-      toast.error("Enter a valid coupon");
+      toast.error("Enter a valid coupon code");
     }
   };
 
   const handlePlaceOrder = () => {
+    if (cartItems.length === 0) {
+      toast.error("Your cart is empty.");
+      return;
+    }
+
     const requiredFields = [
       "firstName", "lastName", "address1",
       "city", "state", "zip", "email", "phone"
@@ -212,9 +218,11 @@ const CheckoutPage = () => {
                     >
                       Cash On Delivery
                     </button>
-                    <button className="btn red" onClick={handlePlaceOrder}>
-                      Place Order
-                    </button>
+                    <div className="d-lg-block d-none">
+                      <button className="btn red" onClick={handlePlaceOrder}>
+                        Place Order
+                      </button>
+                      </div>
                   </div>
                 </div>
               </div>
@@ -256,15 +264,16 @@ const CheckoutPage = () => {
                   value={orderNote}
                   onChange={(e) => setOrderNote(e.target.value)}
                 ></textarea>
-                <button
-                  className="note-submit"
-                  type="button"
-                 
-                >
+                <button className="note-submit" type="button">
                   Submit
                 </button>
               </div>
             </div>
+          </div>
+          <div className="d-lg-none d-block my-3">
+            <button className="btn red" onClick={handlePlaceOrder}>
+              Place Order
+            </button>
           </div>
         </div>
       </div>

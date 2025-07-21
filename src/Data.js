@@ -214,7 +214,7 @@ export const productData = [
     },
     {
       id: 13,
-      name: 'FANDOM UNISEX BLACK CAP',
+      name: 'UNISEX BLACK CAP',
       maninimage: '/images/capmain.png',
       offerprice: 'Rs. 1,100.00',
       originalprice: 'Rs. 1,800.00',

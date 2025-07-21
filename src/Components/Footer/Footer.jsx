@@ -19,8 +19,8 @@ const Footer = () => {
                                 <h3>Navigation</h3>
                                 <ul>
                                     
-                                    <li><Link to="/product-detail/:id">Cart</Link></li>
-                                    <li><Link to="/Checkout">Checkout</Link></li>
+                                    <li><Link to="/cart-detail">Cart</Link></li>
+                                    <li><Link to="/checkout">Checkout</Link></li>
                                     <li><Link to="/shop">Shop</Link></li>
                                 </ul>
                             </div>

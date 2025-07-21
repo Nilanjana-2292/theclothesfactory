@@ -84,6 +84,7 @@
     }
 
     .banner .right-content h1 {
+        padding-top: 15px;
         font-size: 55px;
         line-height: normal;
     }
@@ -110,6 +111,7 @@
 
 @media (max-width: 575px) {
     .banner .right-content h1 {
+        padding-top: 15px;
         font-size: 45px;
         line-height: normal;
         padding-bottom: 30px;
